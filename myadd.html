@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>预约申请</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta name="referrer" content="never">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Loading Bootstrap -->
+    <link href="./assets/css/backend.css?v=1651578290" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        var require = {
+            config: {
+                "site": {
+                    "name": "\u5b66\u751f\u9884\u7ea6\u7ba1\u7406\u7cfb\u7edf",
+                    "cdnurl": "",
+                    "version": 1651578290,
+                    "timezone": "Asia\/Shanghai",
+                    "languages": {
+                        "backend": "zh-cn",
+                        "frontend": "zh-cn"
+                    }
+                },
+                "upload": {
+                    "cdnurl": "",
+                    "uploadurl": "\/reserve.php\/ajax\/upload",
+                    "bucket": "local",
+                    "maxsize": "10mb",
+                    "mimetype": "jpg,png,bmp,jpeg,gif,zip,rar,xls,xlsx,wav,mp4,mp3,pdf",
+                    "chunking": false,
+                    "chunksize": 2097152,
+                    "savekey": "\/uploads\/{year}{mon}{day}\/{filemd5}{.suffix}",
+                    "multipart": [],
+                    "multiple": false,
+                    "storage": "local"
+                },
+                "modulename": "admin",
+                "controllername": "reserve",
+                "actionname": "myadd",
+                "jsname": "backend\/reserve",
+                "moduleurl": "\/reserve.php",
+                "language": "zh-cn",
+                "referer": null,
+                "__PUBLIC__": "\/",
+                "__ROOT__": "\/",
+                "__CDN__": ""
+            }
+        };
+    </script>
+
+</head>
+
+<body class="inside-header inside-aside ">
+    <div id="main" role="main">
+        <div class="tab-content tab-addtabs">
+            <div id="content">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <section class="content-header hide">
+                            <h1>
+                                控制台 <small>Control panel</small>
+                            </h1>
+                        </section>
+                        <div class="content">
+
+                            <style>
+                                body {
+                                    background-color: #fff;
+                                }
+                            </style>
+
+                            <div style="position: relative;
+height: 20px;
+line-height: 20px;
+width: 100%;
+text-align: center;
+font-size: 16px;
+color: #222222;
+border-bottom: 1px solid #eeeeee;margin-bottom: 16px;padding-bottom: 27px;">
+                                <span class="back"></span>
+                                <span style="margin-bottom:7px;">通行预约</span>
+                            </div>
+
+                            <form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">姓名:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-nametext" data-rule="required" class="form-control" name="row[nametext]" type="text" value="王伟奇" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">学号:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-studentnotext" data-rule="required" class="form-control" name="row[studentnotext]" type="text" value="1202010625" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">性别:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <select id="c-sextext" data-rule="required" class="form-control" name="row[sextext]" type="text" value="未知">
+                <option value="">请选择</option>
+                <option>男</option>
+                <option>女</option>
+            </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">联系电话:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-phonetext" data-rule="required" class="form-control" name="row[phonetext]" type="text" value="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">外出原因:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <textarea id="c-reasontext" style="height:120px;" data-rule="required" class="form-control" name="row[reasontext]" type="text" value=""></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">目的地:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-destinationtext" data-rule="required" class="form-control" name="row[destinationtext]" type="text" value="">
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">预计外出时间:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-outtimetext" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" data-rule="required" class="form-control datetimepicker" name="row[outtimetext]" type="text" value="2022-05-03 19:44:50">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">预计返回时间:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-backtimetext" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" data-rule="required" class="form-control datetimepicker" name="row[backtimetext]" type="text" value="2022-05-03 19:44:50">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">所属学院:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <input id="c-academytext" data-rule="required" class="form-control" name="row[academytext]" type="text" value="机械与电子信息学院" readonly="readonly">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-xs-12 col-sm-2">预计通行校区:</label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <select id="c-xiaoqu" data-rule="required" class="form-control datetimepicker" name="row[xiaoqu]" type="text" value="">
+                                <option>南望山校区</option>
+                <option>未来城校区</option>    
+                <option>全部校区</option>
+                
+                
+                
+            </select>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="form-group layer-footer">
+                                    <label class="control-label col-xs-12 col-sm-2"></label>
+                                    <div class="col-xs-12 col-sm-8">
+                                        <button type="submit" class="btn btn-success btn-embossed enabled" style="width:90vw;">确定</button>
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/require.js" data-main="./assets/js/require-backend.js?v=1651578290"></script>
+</body>
+
+</html>

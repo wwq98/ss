@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5b8fac9-6950-4a15-b20a-beb7eaacc16e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/backend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/fastadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/skins/skin-black-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/backend-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/backend/reserve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-table-commonsearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-table-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/fast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/require-backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/require-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/require-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/require-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/art-template/dist/template-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-select/dist/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-slider/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/extensions/fixed-columns/bootstrap-table-fixed-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/extensions/page-jumpto/bootstrap-table-jumpto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap-table/dist/locale/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/fastadmin-layer/dist/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/fastadmin-layer/dist/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/fastadmin-selectpage/selectpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/moment/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/moment/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/nice-validator/dist/jquery.validator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/nice-validator/dist/jquery.validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/nice-validator/dist/local/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/tableExport.jquery.plugin/tableExport.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/toastr/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/libs/toastr/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myadd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon-tjk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon-wdtj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/icon-yy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/flexible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waichuxuzhi/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waichuxuzhi/notice/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waichuxuzhi/notice/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/myindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/shenpijinzhan/liucheng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/shenpijinzhan/liucheng/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/shenpijinzhan/liucheng/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/shenpijinzhan/liucheng/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/index/shenpijinzhan/reserve.php/reserve/zhaji.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/myindex/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/myindex/js/jquery-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/myindex/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/reserve.php/ajax/lang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/reserve.php/reserve/myadd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yuyuezhuangtai/reserve.php/reserve/myindex.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28gIHAqUHamb235um7fJ2XbfkE6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5b8fac9-6950-4a15-b20a-beb7eaacc16e" name="Default Changelist" comment="" />
+      <created>1651631723280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651631723280</updated>
+      <workItem from="1651631727127" duration="13000" />
+      <workItem from="1651631752099" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
